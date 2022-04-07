@@ -1,0 +1,13 @@
+{
+  "name": "ngx-bstal-azure",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^12.1.0 || ^13.1.0",
+    "@angular/core": "^12.1.0 || ^13.1.0"
+  },
+  "dependencies": {
+    "@azure/msal-angular": "^2.1.2",
+    "@azure/msal-browser": "^2.22.1",
+    "tslib": "^2.3.0"
+  }
+}

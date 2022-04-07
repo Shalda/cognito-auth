@@ -1,0 +1,7 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/ngx-bstal-aws",
+  "lib": {
+    "entryFile": "src/projects/ngx-bstal-azure.ts"
+  }
+}

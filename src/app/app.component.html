@@ -1,0 +1,11 @@
+<div class="card-container">
+  <button *ngIf="!isAuth" class="card card-small" (click)="onLogin()" tabindex="0">
+    <span>Login</span>
+  </button>
+  <button *ngIf="isAuth" class="card card-small" (click)="onLogout()" tabindex="0">
+    <span>Log out</span>
+  </button>
+  <button class="card card-small" (click)="onGetUser()" tabindex="0">
+    <span>GetUser</span>
+  </button>
+</div>

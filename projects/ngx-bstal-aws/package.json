@@ -1,0 +1,12 @@
+{
+  "name": "ngx-bstal-aws",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^13.2.0",
+    "@angular/core": "^13.2.0"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^5.2.8",
+    "tslib": "^2.3.0"
+  }
+}
