@@ -15,17 +15,17 @@ export class AppComponent implements OnInit {
 
   onLogin() {
     this._authService.logIn()
+
   }
   onLogout(){
     this._authService.logout()
   }
   onGetUser(){
-    this._authService.getUser()
+    console.log('Tokens: ', this._authService.getUserData());
   }
   ngOnInit() {
     this._authService.getAuthStatus().subscribe((auth:boolean)=> {
       this.isAuth = auth;
     })
-    this._authService.checkToken()
   };
 }

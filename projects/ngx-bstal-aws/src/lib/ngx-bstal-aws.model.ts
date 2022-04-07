@@ -8,5 +8,6 @@ export interface EnvironmentData {
   cognitoAppClientId: string
   domainName: string,
   region: string,
-  redirectDomain:string
+  redirectDomain:string,
+  afterLoginRedirect: string
 }
